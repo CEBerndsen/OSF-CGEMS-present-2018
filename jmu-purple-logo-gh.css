@@ -1,0 +1,92 @@
+/* Colors are defined by the          */
+/* JMU  Branding Color Palette        */
+/* https://www.jmu.edu/identity/graphic-style/colors.shtml   */
+
+a, a > code {
+  color: rgb(181,123,206);
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #450084;
+  line-height: 0.6em;
+}
+
+.jmu-gold {
+  background-color: #CBB677;
+}
+
+.jmu-lightgolf a, .dk_orange a > code {
+  color: rgb(244,239,225);
+  text-decoration: none;
+}
+
+.jmu-gold  h1, .jmu-gold  h2, .jmu-gold  h3 {
+  color: #CBB677;
+  line-height: 0.8em;
+}
+
+.jmu-purple {
+  background-color: #B599CE;
+  color: #AD9C65;
+}
+
+.jmu-purple a, .jmu-purple a > code {
+  /* color: rgb(153,50, 153); */
+  color: rgb(69,0,132);
+  text-decoration: none;
+}
+.jmu-purple h1, .jmu-purple h2, .jmu-purple h3 {
+  color: #B599CE;
+  line-height: 0.8em;
+}
+
+.jmu-orange {
+  background-color: #FFBD00;
+  /* color: #FFD960; */
+}
+.jmu-slate h1, .jmu-slate h2, .jmu-slate h3 {
+  color: #333333;
+  line-height: 0.8em;
+}
+
+.jmu-gold a, .jmu-gold a > code {
+  color: rgb(173,156,101);
+  text-decoration: none;
+}
+
+.inverse {
+  background-color: #450084;
+  color: #AD9C65;
+  /* 001A57 728302*/
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #AD9C65;
+  line-height: 0.8em;
+}
+
+.imageTop {
+  vertical-align: top;
+}
+
+h4 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+.title-slide {
+	background-image: url(https://github.com/CEBerndsen/CGEMS/blob/master/Workshop2018/img/JMU-logo-white.png?raw=true);
+	background-position: 9% 85%;
+  background-size: 250px;
+	background-color: #450084;
+}
+
+.title-slide h1{
+  color: #AD9C65;
+}
+
+.title-slide h2, .title-slide h3 {
+  color: #AD9C65; 
+  line-height: 1.5em;
+}
