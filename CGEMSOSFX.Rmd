@@ -1,26 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Using OSF with lab and lecture projects</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Chris Berndsen" />
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="jmu-purple-logo-gh.css" type="text/css" />
-    <link rel="stylesheet" href="jmu-mod.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Using OSF with lab and lecture projects
-### Chris Berndsen
-
+---
+title: "Using OSF with lab and lecture projects"
+author: "Chris Berndsen"
+date: ""
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: 
+      - default
+      - default-fonts
+      - jmu-purple-logo-gh.css
+      - jmu-mod.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 
-
-
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(ggplot2)
+```
 
 
 # Using the Open Science Framework
@@ -51,13 +51,13 @@ class: center, middle, inverse, title-slide
 ### Problems:
 
 .large[
-- Lots of turnover --&gt; Issues with continuity
+- Lots of turnover --> Issues with continuity
 
-- Inexperienced --&gt; Need to be shown hows and whys of data management
+- Inexperienced --> Need to be shown hows and whys of data management
 ]
-&lt;br/&gt;
+<br/>
 
-&lt;br/&gt;
+<br/>
 
 
 .center[.content-box-purple[.large[Open Science Framework can mitigate these issues!]]]
@@ -88,9 +88,9 @@ class: center, middle
 
 # Examples from the Berndsen lab
 
-&lt;br/&gt;
+<br/>
 
-&lt;br/&gt;
+<br/>
 
 .Large[
 Publicly available project:
@@ -130,7 +130,7 @@ class: center, inverse, middle
     
     + POGIL or flipped classrooms: students work on a project to apply knowledge and content to demonstrate concept
 
-- Promote critical thinking and adaptability --&gt; Scientific process
+- Promote critical thinking and adaptability --> Scientific process
 
 - Teach students to communicate scientific material effectively
 ]
@@ -147,7 +147,7 @@ class: center, inverse, middle
     
     + Organic Chemistry Lab for Chemistry majors
 ]    
-&lt;br/&gt;
+<br/>
 
 .center[.full-width[.content-box-gold[.Large[What about for a lecture course?]]]]
 
@@ -207,7 +207,7 @@ class: center, inverse, middle
 .large[
 - Management of the student data
 
-    + **Word --&gt; Sharepoint/OneNote --&gt; Open Science Framework**
+    + **Word --> Sharepoint/OneNote --> Open Science Framework**
     
 - Wanted students to think about biochemistry!
 
@@ -262,7 +262,7 @@ class: center, inverse, middle
 .pull-right[
 .large[**Students then:**]
 
-- Predict changes in weak interactions, pK&lt;sub&gt;A&lt;/sub&gt; values, broader changes in protein structure or active site
+- Predict changes in weak interactions, pK<sub>A</sub> values, broader changes in protein structure or active site
 
 - Rationalize why the change could occur based on biochemical knowledge
 
@@ -277,9 +277,9 @@ class: center, inverse, middle
 ## Open Science Framework
 
 .large[
-- Tried asking students to keep a notebook using **Word/Docs** --&gt; .Large[:(]
+- Tried asking students to keep a notebook using **Word/Docs** --> .Large[:(]
 
-- Used JMU's access to Sharepoint and **OneNote** --&gt; .Large[:(]
+- Used JMU's access to Sharepoint and **OneNote** --> .Large[:(]
 
     - ~10% of students could not get access to OneNote
     
@@ -304,7 +304,34 @@ class: center, inverse, middle
 ## Fork and go do Science (2016-2018)
 
 
-&lt;img src="CGEMSOSFX_files/figure-html/fork-1.png" style="display: block; margin: auto;" /&gt;
+```{r fork, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+ggplot() +
+  annotate("rect", xmin = 4.5, xmax = 9.5, ymin = 3, ymax = 8, fill = "dark cyan") +
+  annotate("rect", xmin = 9, xmax = 11, ymin = 0, ymax = 2, fill = "red") +
+  annotate("rect", xmin = 3, xmax = 5, ymin = 0, ymax = 2, fill = "red") +
+  annotate("rect", xmin = 6, xmax = 8, ymin = 0, ymax = 2, fill = "red") +
+  annotate("rect", xmin = 12, xmax = 14, ymin = 3, ymax = 5, fill = "red") +
+  annotate("rect", xmin = 12, xmax = 14, ymin = 6, ymax = 8, fill = "red") +
+  annotate("rect", xmin = 9, xmax = 11, ymin = 9, ymax = 11, fill = "red") +
+  annotate("rect", xmin = 6, xmax = 8, ymin = 9, ymax = 11, fill = "red") +
+  annotate("rect", xmin = 3, xmax = 5, ymin = 9, ymax = 11, fill = "red") +
+  annotate("rect", xmin = 0, xmax = 2, ymin = 3, ymax = 5, fill = "red") +
+  annotate("rect", xmin = 0, xmax = 2, ymin = 6, ymax = 8, fill = "red") +
+  annotate("segment", x = 5, xend = 4, y = 3, yend = 2, size = 2, linetype = "dotted") +
+  annotate("segment", x = 7, xend = 7, y = 3, yend = 2, size = 2, linetype = "dotted") +
+  annotate("segment", x = 8.75, xend = 10, y = 3, yend = 2, size = 2, linetype = "dotted") +
+  annotate("segment", x = 9.5, xend = 12, y = 4, yend = 4, size = 2, linetype = "dotted") +
+  annotate("segment", x = 9.5, xend = 12, y = 7, yend = 7, size = 2, linetype = "dotted") +
+  annotate("segment", x = 5, xend = 4, y = 8, yend = 9, size = 2, linetype = "dotted") +
+  annotate("segment", x = 7, xend = 7, y = 8, yend = 9, size = 2, linetype = "dotted") +
+  annotate("segment", x = 8.75, xend = 10, y = 8, yend = 9, size = 2, linetype = "dotted") +
+  annotate("segment", x = 4.5, xend = 2, y = 4, yend = 4, size = 2, linetype = "dotted") +
+  annotate("segment", x = 4.5, xend = 2, y = 7, yend = 7, size = 2, linetype = "dotted") +
+  annotate("text", x = 7, y = 5, label = 'bold("Central \nOSF \nProject")', size = 6, parse = TRUE, color = "black") +
+  annotate("text", x = 13, y = 9.5, label = 'bold("Individual \nProjects")', size = 6, parse = TRUE, color = "red") +
+  theme_void()
+
+```
 
 ---
 ## Fork and go do Science (2016-2018)
@@ -342,7 +369,35 @@ class: center, inverse, middle
 ## Research Community
 
 
-&lt;img src="CGEMSOSFX_files/figure-html/collab-1.png" style="display: block; margin: auto;" /&gt;
+```{r collab, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+ggplot() +
+  annotate("rect", xmin = 0, xmax = 60, ymin = -1, ymax = 5.5, fill = "dark cyan") +
+  annotate("rect", xmin = 20, xmax = 55, ymin = 0.1, ymax = 1, fill = "blue") +
+  annotate("rect", xmin = 20, xmax = 55, ymin = 1.1, ymax = 2, fill = "blue") +
+  annotate("rect", xmin = 20, xmax = 55, ymin = 2.1, ymax = 3, fill = "blue") +
+  annotate("rect", xmin = 20, xmax = 55, ymin = 3.1, ymax = 4, fill = "blue") +
+  annotate("rect", xmin = 20, xmax = 55, ymin = 4.1, ymax = 5, fill = "blue") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 0.1, ymax = .5, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = .6, ymax = 1, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 1.1, ymax = 1.5, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 2.6, ymax = 3, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 3.1, ymax = 3.5, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 3.6, ymax = 4, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 4.1, ymax = 4.5, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 4.6, ymax = 5, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 1.6, ymax = 2, fill = "red") +
+  annotate("rect", xmin = 40, xmax = 50, ymin = 2.1, ymax = 2.5, fill = "red") +
+  annotate("rect", xmin = 5, xmax = 10, ymin = 0.5, ymax = 1.5, fill = "black") +
+  annotate("rect", xmin = 5, xmax = 10, ymin = 4.0, ymax = 5.0, fill = "magenta") +
+  annotate("text", x = 7, y = 6.25, label = 'bold("Central OSF \nProject")', size = 6, color = "dark cyan", parse = TRUE) +
+  annotate("text", x = 27, y = 6, label = 'bold("Group \nProject \nComponents")', color = "blue", size = 6, parse = TRUE) +
+  annotate("text", x = 45, y = 6, label = 'bold("Individual \nProject \nComponents")', size = 6, color = "red", parse = TRUE) +
+   annotate("text", x = 8, y = 0, label = 'bold("References")', size = 6, color = "black", parse = TRUE) +
+  annotate("text", x = 8, y = 2.7, label = 'bold("Project \nResources")', size = 6, color = "magenta", parse = TRUE) +
+  ylim(-2,8) +
+  theme_void()
+
+```
 
 
 ---
@@ -413,7 +468,7 @@ class: center, inverse, middle
 .large[**OSF** uses an interface that contains features known to uses of Word/Docs to make wiki easier to write in markdown]
 
 
-.center[&lt;img src="./img/markdown.PNG" width = "700"&gt;]
+.center[<img src="./img/markdown.PNG" width = "700">]
 
 
 .footnote[(This entire presentation was written in a version of markdown)]
@@ -447,51 +502,3 @@ In groups we will:
 
 2. Begin to fill in the wiki using markdown language
 ]
-    </textarea>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})();</script>
-
-<script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-})();
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
