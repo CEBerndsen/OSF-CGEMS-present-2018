@@ -46,14 +46,18 @@ library(ggplot2)
 
 ---
 
-## Research Project Management with undergraduate students
+## Research Project Management with undergraduates
 
 ### Problems:
 
 .large[
+
 - Lots of turnover --> Issues with continuity
 
 - Inexperienced --> Need to be shown hows and whys of data management
+
+- Handwriting in notebooks
+
 ]
 <br/>
 
@@ -97,6 +101,8 @@ Publicly available project:
 
 [Tetherin SNP modeling](https://osf.io/hwkj4/)
 ]
+
+https://osf.io/hwkj4/
 ---
 
 ## Summary
