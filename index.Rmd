@@ -133,9 +133,9 @@ class: center, inverse, middle
 .large[
 - Active learning or engaging the student to participate in the learning process aids in understanding and retention
 
-    + Lab courses are often use to supplement learning from the lecture
+    + **Lab courses**
     
-    + POGIL or flipped classrooms: students work on a project to apply knowledge and content to demonstrate concept
+    + **POGIL or flipped classrooms**: students work on a project to apply knowledge and content to demonstrate concept
 
 - Promote critical thinking and adaptability --> Scientific process
 
@@ -151,6 +151,8 @@ class: center, inverse, middle
 - Examples at JMU:
 
     + Intro Biology Lab sequence 
+    
+    + Bacterial Discovery
     
     + Organic Chemistry Lab for Chemistry majors
 ]    
