@@ -522,7 +522,7 @@ In groups we will:
 ---
 ## Continuing work
 
-
+.large[
 **Throughout the workshop:** 
 
   - Fill in additional components for new experiments and data
@@ -530,3 +530,5 @@ In groups we will:
   - Fork the notebook template to create a group notebook for methods and data
   
   - Wikis can *(should?)* be used to indicate what is in each component section and highlight major findings 
+
+]
