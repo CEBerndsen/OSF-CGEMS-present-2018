@@ -304,7 +304,7 @@ class: center, inverse, middle
 ## Fork and go do Science (2016-2018)
 
 
-```{r fork, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+```{r fork, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', dpi = 300, out.width="70%"}
 ggplot() +
   annotate("rect", xmin = 4.5, xmax = 9.5, ymin = 3, ymax = 8, fill = "dark cyan") +
   annotate("rect", xmin = 9, xmax = 11, ymin = 0, ymax = 2, fill = "red") +
@@ -369,7 +369,7 @@ ggplot() +
 ## Research Community
 
 
-```{r collab, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
+```{r collab, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', dpi = 300, out.width="70%"}
 ggplot() +
   annotate("rect", xmin = 0, xmax = 60, ymin = -1, ymax = 5.5, fill = "dark cyan") +
   annotate("rect", xmin = 20, xmax = 55, ymin = 0.1, ymax = 1, fill = "blue") +
