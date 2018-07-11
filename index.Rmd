@@ -464,7 +464,7 @@ ggplot() +
 
 ---
 class: center, inverse, middle
-# Making the CGEMS workshop site
+# Constructing and updating the CGEMS workshop site
 
 
 
@@ -515,12 +515,17 @@ In groups we will:
 
     - Name the component after your isolate (*example*: DG7)
 
-2. Within the new component, modify the home wiki page with information on your isolate
+2. Within the new component, modify the home wiki page with basic information on your isolate
+
+--
+## Continuing work
 
 **Throughout the workshop:** 
 
-  - Fill in additional components for new experiments 
+  - Fill in additional components for new experiments and data
   
-  - Wiki pages using markdown language and the notebook template provided
+  - Fork the notebook template to create a group notebook for methods and data
+  
+  - Wikis can *(should?)* be used to indicate what is in each component section and hihglight major findings 
 
 ]
