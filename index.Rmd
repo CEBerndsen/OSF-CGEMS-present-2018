@@ -498,7 +498,16 @@ class: center, middle
 .large[
 In groups we will:
 
-1. Create a component for each part of the workshop
+1. Create a component for the data for each team in the *Salmonella Isolate Data and Analysis Files* component
 
-2. Begin to fill in the wiki using markdown language
+    - Name the component after your isolate (*example*: DG7)
+
+2. Within the new component, modify the home wiki page with information on your isolate
+
+**Throughout the workshop:** 
+
+  - Fill in additional components for new experiments 
+  
+  - Wiki pages using markdown language and the notebook template provided
+
 ]
